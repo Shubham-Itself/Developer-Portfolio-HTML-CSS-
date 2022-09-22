@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./pexels-miguel-á-padriñán-255379.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.form-area {
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  height: 700px;
+  width: 500px;
+  background-color: beige;
+  overflow: hidden;
+}
+
+.form-btn {
+  /* background-color: black; */
+  max-width: 400px;
+  margin: 6% auto;
+  text-align: center;
+  /* background-color: white; */
+}
+
+.btn {
+  padding: 15px 40px;
+  margin: 0;
+  outline: none;
+  border: none;
+  /* background-color: black; */
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+
+.icon-area{
+    max-width: 400px;
+    margin: 6% auto;
+    text-align: center;
+    
+}
+
+.fa-brands{
+    padding: 0px 10px;
+    font-size: 30px;
+    color: rgb(255, 82, 58)
+   
+    
+
+}
+
+.input-fields{
+    max-width: 400px;
+    margin: 6% auto;
+    /* text-align: center; */
+    position: relative;
+    overflow: hidden;
+    
+}
+
+
+.text{
+    width: 400px;
+    display: block;
+   padding: 15px 0px;
+   outline: none;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   background-color: beige;
+}
+
+.password{
+    display: block;
+    margin-top: 30px;
+    width: 400px;
+    padding: 15px 0px;
+   outline: none;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   background-color: beige;
+}
+.check{
+    margin-top: 50px;
+}
+
+.submitbtn{
+    /* display: block;   */
+    margin-top: 70px;
+    text-align: center;
+    width: 300px;
+}
+
+.spancheck{
+    margin-left: 10px;
+}
+.input-fields-registration{
+    position: absolute;
+    top: 23.6%;
+    left: 600px;
+    overflow: hidden;
+}
